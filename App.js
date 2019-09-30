@@ -29,7 +29,7 @@ const HomeStack = createStackNavigator(
       headerStyle: {
         backgroundColor: '#98FB98',
       },
-      headerTintColor: '#000',
+      headerTintColor: 'black',
       headerTitleStyle: {
         fontWeight: 'bold',
       },

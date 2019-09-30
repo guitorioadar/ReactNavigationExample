@@ -16,8 +16,10 @@ class DetailsScreen extends React.Component {
         
         return (
             <View style={styles.detailsScreen}>
+                {/* {console.log(navigation)} */}
                 <Text>Details Screen</Text>
-                <Text>itemId: {JSON.stringify(itemId)}</Text>
+                {/* <Text>itemId: {JSON.stringify(itemId)}</Text> */}
+                <Text>itemId: {itemId}</Text>
                 <Text>otherParam: {JSON.stringify(otherParam)}</Text>
                 <Button
                     title="Go to Details... again"
